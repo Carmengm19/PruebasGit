@@ -1,0 +1,17 @@
+.nav-horizontal {
+    display: flex; /* Hace que los elementos hijos se alineen horizontalmente */
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-horizontal div {
+    color: white;
+    padding: 10px 20px; /* Espaciado interno para cada contenedor */
+    text-align: center;
+    flex: 1; /* Hace que cada div ocupe el mismo espacio */
+    cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+}
+
+.nav-horizontal div:hover {
+    background-color: #575757; /* Color al pasar el ratón */
+}
